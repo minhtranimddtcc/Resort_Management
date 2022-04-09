@@ -1,0 +1,61 @@
+.search-formHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-formHome h3{
+    font-size: 2.5rem;
+    margin: 2rem 0 0 2rem;
+    color: var(--color-primary-hover);
+}
+.search-formHome form{
+    margin-top: 2rem;
+    width: 30rem;
+    position: relative;
+}
+.search-formHome form label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.search-formHome form span{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+}
+.search-formHome form .box{
+    height: 3rem;
+    padding: .5rem;
+    width: 15rem;
+    border: var(--border);
+    background-color: #f8f8f8;
+    border-radius: 4px;
+}
+.search-formHome form .btn{
+    position: absolute;
+    right: 20%;
+    top: 22%;
+    cursor: pointer;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+.search-formHome form .btn:hover{
+    background-color: var(--color-primary-hover);
+}
+@media (max-width:768px){/* small device */
+    .search-formHome form .btn{
+        position: static;
+        margin-top: 1rem;
+    }
+
+
+
+  
+
+}
+
+
+

@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 6.5rem);
+    overflow-x: scroll;
+}
+
+.otherpage{
+    position: absolute;
+    left:300px;
+    width: calc(100% - 300px);
+    transition: .5s;
+}
+.otherpage.active{
+    width: calc(100% - 75px);
+    left: 75px;
+}

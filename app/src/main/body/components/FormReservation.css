@@ -1,0 +1,66 @@
+.insert-form{
+    margin-bottom: 3rem;
+    position: relative;
+}
+.insert-form h3{
+    font-size: 2.5rem;
+    margin: 2rem 3rem 1rem;
+    color: var(--color-primary-hover);
+}
+.insert-form form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));
+    font-size: 1.7rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    margin:0 3rem;
+    height: auto;
+    gap:1.5rem;
+    padding: 1.5rem;
+}
+.insert-form form div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+/* .insert-form form div:last-child{
+    justify-content: center;
+} */
+.insert-form form div label,
+.insert-form form .btn{
+    color: rgb(4, 163, 76);
+}
+.insert-form form div input{
+    height: 3rem;
+    padding: .5rem;
+    margin-left: 1rem;
+    border: var(--border);
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    width:auto;
+}
+.insert-form button{
+    text-align: center;
+    width: 20%;
+    margin: 1rem 0;
+    position:absolute;
+    top: 110%;
+    left: 40%;
+    height: 4rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.insert-form button:hover{
+    color: white;
+    background-color: var(--color-primary-hover);
+}
+.insert-form form select{
+    height: 3rem;
+    padding: .5rem;
+    margin-left: 1rem;
+    border: var(--border);
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,89 @@
+.search-form{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 3rem 1rem;
+}
+.search-form h3{
+    font-size: 2rem;
+    color: var(--color-primary-hover);
+    margin-right: 3rem;
+}
+.search-form form{
+    width: 40rem;
+    position: relative;
+}
+.search-form form label{
+    font-size: 1.5rem;
+}
+.search-form form .box{
+    height: 3rem;
+    padding: .5rem;
+    margin-left: 1rem;
+    border: var(--border);
+    background-color: #f8f8f8;
+    border-radius: 4px;
+}
+.search-form form .btn{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
+.search-form form .btn:hover{
+    background-color: var(--color-primary-hover);
+}
+
+.content-table{
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    min-width: 40rem;
+    margin: 2rem auto;
+    border-radius: 1rem 1rem 0 0;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+.content-table thead tr{
+    background-color: var(--color-primary-hover);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table td{
+    padding: 1.2rem 1.5rem;
+}
+.content-table tbody tr{
+    border-bottom: var(--border);
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid var(--color-primary-hover);
+}
+.content-table tbody tr:hover{
+    color:white;
+    cursor: pointer;
+    background-color: var(--color-primary-hover);
+    border-top: 1px solid white;
+}
+/* @media (max-width:768px){
+    .search-form form{
+        display: flex;
+        flex-direction: column;
+    }
+    .search-formHome form .btn{
+        position: static;
+        margin-top: 1rem;
+    }
+
+
+
+  
+
+} */
